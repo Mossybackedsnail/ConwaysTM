@@ -1,5 +1,8 @@
 import re
 import sys
+if sys.argv.__len__() < 3:
+    print("Usage: merger.py [file1] [file2]")
+    sys.exit(1)
 fname1 = sys.argv[1]
 fname2 = sys.argv[2]
 oname = "merged.txt"
