@@ -40,11 +40,11 @@ End state accepts once `STORE` writes `X` and completes a special section:
 
 ### Color Labels:
 - `START`: Red 
-- `INIT`: Orange 
-- `PROCESS`: Yellow (neon) 
-- `STORE`: Lime 
-- `RESET`: Cyan 
-- `END`: Magenta
+- `INIT`: Lime
+- `PROCESS`: Blue
+- `STORE`: Slate
+- `RESET`: Purple 
+- `END`: Pink
 
 ## Alphabets
 - Input alphabet
