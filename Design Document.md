@@ -1,7 +1,7 @@
 This is the Design document for the Turing Machine version of Conway's Game of Life
 
 # Machine goal:
-Input: one board state of Conway's game of life
+Input: one board state of Conway's game of life  
 Output: the next board state
 
 # Input Format
@@ -32,11 +32,11 @@ Program consists of 4 main sections that loop across every row:
 - `INIT`
 - `PROCESS`
 - `STORE`
-- `RESET`
+- `RESET`  
 Start state will begin at a special section:
-- `START`
+- `START`  
 End state accepts once `STORE` writes `X` and completes a special section:
-- `END`
+- `END`  
 
 ### Color Labels:
 - `START`: Red 
